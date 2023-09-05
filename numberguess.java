@@ -16,7 +16,7 @@ public class numberguess {
 	            int targetNumber = random.nextInt(upperBound - lowerBound + 1) + lowerBound;
 	            int maxAttempts = 5;
 	            int attempts = 0;
-	            System.out.println(targetNumber);
+	            
 	            System.out.println("I've selected a number between " + lowerBound + " and " + upperBound + ". Try to guess it!");
 	            
 	            while (attempts < maxAttempts) {
